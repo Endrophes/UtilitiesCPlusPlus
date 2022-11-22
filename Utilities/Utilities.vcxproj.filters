@@ -26,5 +26,8 @@
     <ClInclude Include="Lib\StopwatchService.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Lib\TimerTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
