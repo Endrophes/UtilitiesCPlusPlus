@@ -12,9 +12,12 @@ void StopwatchService::startWatch(std::string watchName)
 		// Create new Watch
 
 		stopwatchStorage.emplace(
-			Stopwatch(
+			std::pair<std::string, Stopwatch>(
 				watchName,
-				CURRENT_TIME
+				StopwatchService::Stopwatch(
+					watchName,
+					CURRENT_TIME
+				)
 			)
 		);
 	}

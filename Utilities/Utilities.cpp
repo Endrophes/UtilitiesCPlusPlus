@@ -3,9 +3,20 @@
 
 #include <iostream>
 
+#include "Lib/StopwatchService.h";
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    //std::cout << "Hello World!\n";
+
+    stopwatchService.startWatch("THIS IS A TEST");
+
+
+    //DO Stuff
+
+
+    stopwatchService.endWatch("THIS IS A TEST");
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
