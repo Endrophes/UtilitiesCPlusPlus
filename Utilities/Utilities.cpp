@@ -7,13 +7,13 @@
 
 int main()
 {
-    stopwatchService.startWatch("THIS IS A TEST");
+    UTILS::stopwatchService.startWatch("THIS IS A TEST");
 
 
     //DO Stuff
     std::cin.ignore(); // a pause for a user defined time to test stopwatch
 
 
-    stopwatchService.endWatch("THIS IS A TEST");
+    UTILS::stopwatchService.endWatch("THIS IS A TEST");
 
 }
